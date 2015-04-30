@@ -45,7 +45,7 @@ Use different machine learning algorithms to modify traditional technical strate
 
 
 ## Installation Guide
-Repository
+Repository installation
 
 ### System Requirements
 Make sure your system meets these requirements:
