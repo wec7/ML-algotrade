@@ -31,9 +31,9 @@ The main module we will be using is scipy-learn (http://scikit-learn.org/stable/
 ### Project Idea
 Use different machine learning algorithms to modify traditional technical strategies, and backtest with research in cycle to find a good algorithm,
  - Machine Learning algorithms
-   - Nearest Neighbors (http://scikit-learn.org/stable/modules/neighbors.html)
-   - Random Forests (http://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees)
-   - Support Vector Machine (http://scikit-learn.org/stable/modules/svm.html)
+   - Nearest Neighbors, http://scikit-learn.org/stable/modules/neighbors.html
+   - Random Forests, http://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
+   - Support Vector Machine, http://scikit-learn.org/stable/modules/svm.html
  - Technical Strategies
    - Bollinger Band
    - Momentum
