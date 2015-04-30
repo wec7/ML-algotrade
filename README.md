@@ -1,16 +1,16 @@
 # ML-algotrade
 Project Title: Algorithmic Trading with Machine Learning
 
-## Project Proposal
+## 1. Project Proposal
 Group project for Baruch MTH 9899 - Big Data II: Machine Learning
 
-### Project Member
+### 1.1 Project Member
  - Weiyi Chen, weiyi.chen@baruchmail.cuny.edu
  - Yifan Cui, yifan.cui@baruchmail.cuny.edu
  - Chengbin Wang, chengbin.wang@baruchmail.cuny.edu
  - Haotian Wu, haotian.wu@baruchmail.cuny.edu
 
-### Project Idea
+### 1.2 Project Idea
 Use different machine learning algorithms to modify traditional technical strategies, and backtest with research in cycle to find a good algorithm,
  - Machine Learning algorithms
    - Nearest Neighbors, http://scikit-learn.org/stable/modules/neighbors.html
@@ -22,7 +22,7 @@ Use different machine learning algorithms to modify traditional technical strate
    - Rotated Relative Graph
 We use `Introduction to machine learning` as our guide to understand the algorithms and `Evidence-based technical analysis` to learn technical strategies.
 
-### Data Set and Software: Quantopian
+### 1.3 Data Set and Software: Quantopian
 Quantopian is our main research and backtesting platform, we research algorithmic trading ideas and explore curated financial data with the assistance of machine learning algorithm in this hosted research environment. Quantopian supports flexible data access, custom plotting, and post-hoc analysis on backtest. 
 
 For convenience to verify our machine learning algorithms by cheating ('cheat' is like using today's data to forecast today), we also support local access to data from Yahoo, with event study and backtesting tools from Python module QuantSoftware Toolkit. In concludes,
@@ -35,30 +35,30 @@ For convenience to verify our machine learning algorithms by cheating ('cheat' i
    - Quantopian, a platform to build, test, and execute trading algorithms.
    - QuantSoftware Toolkit, a modified Python-based open source software framework designed to support portfolio construction and management
 
-### Programming Language
+### 1.4 Programming Language
 Python. The requirement of this course suggests Matlab, but we request for using Python because our preferred platform Quantopian is using Python and the Python module QSTK we will be using is also in Python.
 
 The main module we will be using is scipy-learn (http://scikit-learn.org/stable/supervised_learning.html#supervised-learning), which contains implemented Machine Learning algorithms.
 
-### Books and Papers reference
+### 1.5 Books and Papers reference
  - Alpaydin, Ethem. *Introduction to machine learning.* MIT press, 2014.
  - Aronson, David. *Evidence-based technical analysis: applying the scientific method and statistical inference to trading signals.* Vol. 274. John Wiley & Sons, 2011.
 
 
-## Installation Guide
+## 2. Installation Guide
 Repository installation
 
-### System Requirements
+### 2.1 System Requirements
 Make sure your system meets these requirements:
   - Operating system: MacOS 10.9 10.10 (it has been tested successfully on these)
   - RAM: 2GB.
   - Disk space: 2GB
 
-### Step 1: Install Command Line Tools
+### 2.2 Install Command Line Tools
   - Open terminal, type “xcode-select --install” in terminal (without quotes)
   - A pop-up windows will appear asking you about install tools, choose install tools, wait install to finish
   
-### Step 2: Install Homebrew
+### 2.3 Install Homebrew
 
   ```
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -66,13 +66,13 @@ Make sure your system meets these requirements:
   brew tap homebrew/science
   ```
 
-### Step 3: Install gcc and its libraries
+### 2.4 Install gcc and its libraries
 
   ```
   brew install gcc
   ```
 
-### Step 4: Install Python and its modules
+### 2.5 Install Python and its modules
     
   ```
   brew install python
@@ -92,14 +92,14 @@ Make sure your system meets these requirements:
   pip install QSTK
   ```
 
-### Step 4: Install Sublime IDE and Fix Mac Path (other systems no need to fix)
+### 2.6 Install Sublime IDE and Fix Mac Path (other systems no need to fix)
 
   ```
   brew install sublime
   git clone https://github.com/int3h/SublimeFixMacPath.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/FixMacPath
   ```
 
-### Step 5: Clone AlgoTrading and Overwrite QSTK package
+### 2.7 Clone AlgoTrading and Overwrite QSTK package
 
   ```
   git clone https://github.com/weiyialanchen/AlgoTrading.git
@@ -107,7 +107,7 @@ Make sure your system meets these requirements:
   rm -r AlgoTrading/
   ```
 
-### Step 6: Set up alias to working directory
+### 2.8 Set up alias to working directory
 
 Note that your working directory is /usr/local/lib/python2.7/site-packages/QSTK/, to make alias
 
