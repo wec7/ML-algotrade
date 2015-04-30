@@ -10,6 +10,18 @@ Group project for Baruch MTH 9899 - Big Data II: Machine Learning
  - Chengbin Wang, chengbin.wang@baruchmail.cuny.edu
  - Haotian Wu, haotian.wu@baruchmail.cuny.edu
 
+### Project Idea
+Use different machine learning algorithms to modify traditional technical strategies, and backtest with research in cycle to find a good algorithm,
+ - Machine Learning algorithms
+   - Nearest Neighbors, http://scikit-learn.org/stable/modules/neighbors.html
+   - Random Forests, http://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
+   - Support Vector Machine, http://scikit-learn.org/stable/modules/svm.html
+ - Technical Strategies
+   - Bollinger Band
+   - Momentum
+   - Rotated Relative Graph
+We use `Introduction to machine learning` as our guide to understand the algorithms and `Evidence-based technical analysis` to learn technical strategies.
+
 ### Data Set and Software: Quantopian
 Quantopian is our main research and backtesting platform, we research algorithmic trading ideas and explore curated financial data with the assistance of machine learning algorithm in this hosted research environment. Quantopian supports flexible data access, custom plotting, and post-hoc analysis on backtest. 
 
@@ -27,17 +39,6 @@ For convenience to verify our machine learning algorithms by cheating ('cheat' i
 Python. The requirement of this course suggests Matlab, but we request for using Python because our preferred platform Quantopian is using Python and the Python module QSTK we will be using is also in Python.
 
 The main module we will be using is scipy-learn (http://scikit-learn.org/stable/supervised_learning.html#supervised-learning), which contains implemented Machine Learning algorithms.
-
-### Project Idea
-Use different machine learning algorithms to modify traditional technical strategies, and backtest with research in cycle to find a good algorithm,
- - Machine Learning algorithms
-   - Nearest Neighbors, http://scikit-learn.org/stable/modules/neighbors.html
-   - Random Forests, http://scikit-learn.org/stable/modules/ensemble.html#forests-of-randomized-trees
-   - Support Vector Machine, http://scikit-learn.org/stable/modules/svm.html
- - Technical Strategies
-   - Bollinger Band
-   - Momentum
-   - Rotated Relative Graph
 
 ### Books and Papers reference
  - Alpaydin, Ethem. *Introduction to machine learning.* MIT press, 2014.
