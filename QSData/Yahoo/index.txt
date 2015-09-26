@@ -1,7 +1,0 @@
-GLD
-SPY
-$GSPC
-IYR
-$VIX
-SH
-SDS
